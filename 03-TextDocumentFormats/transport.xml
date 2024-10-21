@@ -1,0 +1,7 @@
+<transport>
+    <tram lineNumber="50">My favourite way of transportation</tram>
+    <car model="Family car"> Unfortunately I cant drive</car>
+    <bus>Buses are always full in Krakow</bus>
+    <train>The only way I can get home
+    </train>
+</transport>
