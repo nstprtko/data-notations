@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<creatures>
+<tag1>
     <creature name="Phoenix" habitat="Mountains" lifespan="immortal">
         <description> A mythical bird that regenerates or is reborn from its ashes. </description>
         <powers>
@@ -15,6 +15,7 @@
             <power>Flight</power>
             <power>Fire breath</power>
         </powers>
+    </creature>
         
     <creature name="Unicorn" habitat="Forests" lifespan="centuries">
         <description>A magical horse with a single, spiraling horn.</description>
@@ -30,4 +31,5 @@
             <power>Enhanced strength</power>
         </powers>
     </creature>
-</creatures>
+    
+</tag1>

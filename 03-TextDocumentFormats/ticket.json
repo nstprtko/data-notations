@@ -1,0 +1,13 @@
+[
+    {
+        "departure": "Krakow",
+        "departure time": "6:30",
+        "service":"FlixBus",
+        "time in journey": "2 h 20 min",
+        "arrival": "Zakopane",
+        "arrival time": "9:00",
+        "isrefundable": true,
+        "price": 30
+
+    }
+]
