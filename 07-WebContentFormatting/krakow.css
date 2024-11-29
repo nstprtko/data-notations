@@ -1,0 +1,49 @@
+table {
+    background-color: rgb(201, 244, 201);
+    border-collapse: collapse;
+    
+    width: 100%; 
+    margin: 10px;
+    text-align: center;
+    
+    border-style: dashed;
+    font-size: large;
+}
+th{
+    font-family: monospace;
+    color: darkgreen;
+    font-style: italic;
+    padding: 17px;
+    border:none;
+}
+colgroup col:nth-child(1){
+    width:25%
+}
+colgroup col:nth-child(4){
+    width: 40%;
+
+}
+tr{
+    background-color: rgb(209, 232, 246);
+    color :rgb(26, 26, 79);
+    font-family: monospace;
+    padding: 12px;
+    border: none;
+    border-top: 1px solid #ddd; /* Add border only for rows */
+    border-bottom: 1px solid #ddd; /* Add border only for rows */
+}
+th{
+    background-color: rgb(67, 110, 136);
+    color: white;
+}
+tr:hover{
+    background-color: rgb(67, 110, 136);
+    color: white;
+
+}
+
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+        font-size: 14px;
+    }}
