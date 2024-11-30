@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Wonders of the Natural World</title>
+    <link rel="stylesheet" href="wonders.css">
 </head>
 
 <body>
@@ -12,9 +13,9 @@
     <h1>The Wonders of the Natural World</h1>
 
     <!-- Section 1: The Grand Canyon -->
-    <h2>The Grand Canyon</h2>
+    <h2 id="Canyon">The Grand Canyon</h2>
     <p>
-        The Grand Canyon is one of the most remarkable natural formations in the world. It is located in the state of
+            The Grand Canyon is one of the most remarkable natural formations in the world. It is located in the state of
         Arizona, USA, and stretches for over 277 miles. The canyon was carved over millions of years by the Colorado
         River. Its depth reaches over a mile, providing breathtaking views and revealing layers of geological history.
         More information can be found on <a href="https://en.wikipedia.org/wiki/Grand_Canyon"
@@ -28,7 +29,7 @@
     </p>
 
     <!-- Section 2: The Great Barrier Reef -->
-    <h2>The Great Barrier Reef</h2>
+    <h2 id="Reef">The Great Barrier Reef</h2>
     <p>
         The Great Barrier Reef is the largest coral reef system in the world. It is located off the coast of Queensland,
         Australia, and is composed of over 2,900 individual reefs. The reef system is about 1,400 miles long and can be
@@ -36,6 +37,7 @@
         sharks, and sea turtles. You can learn more about it on <a
             href="https://en.wikipedia.org/wiki/Great_Barrier_Reef" target="_blank">Wikipedia</a>.
     </p>
+    <img src="https://cdn.britannica.com/67/152567-050-C976C2B3/Great-Barrier-Reef.jpg" alt="great bareer reef">
     <p>
         The Great Barrier Reef is a popular destination for scuba divers and snorkelers. It was designated a UNESCO
         World Heritage Site in 1981. Unfortunately, the reef is currently facing threats from climate change and coral
@@ -44,7 +46,7 @@
     </p>
 
     <!-- Section 3: Mount Everest -->
-    <h2>Mount Everest</h2>
+    <h2 id="Mount Everest">Mount Everest</h2>
     <p>
         Mount Everest is the tallest mountain in the world, standing at 29,032 feet above sea level. It is located in
         the Himalayas, on the border between Nepal and the Tibet Autonomous Region of China. Everest has long been a
@@ -118,17 +120,17 @@
     <h2>Plan Your Natural Wonder Trip</h2>
     <form action="#" method="post">
         <div>
-            <label for="name">Full Name:</label>
+            <label for="name">Full Name:</label><br>
             <input type="text" id="name" name="name" required>
         </div>
 
         <div>
-            <label for="email">Email:</label>
+            <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required>
         </div>
 
         <div>
-            <label for="destination">Select Destination:</label>
+            <label for="destination">Select Destination:</label><br>
             <select id="destination" name="destination" required>
                 <option value="grand-canyon">Grand Canyon</option>
                 <option value="great-barrier-reef">Great Barrier Reef</option>
@@ -137,12 +139,12 @@
         </div>
 
         <div>
-            <label for="travel-date">Preferred Travel Date:</label>
+            <label for="travel-date">Preferred Travel Date:</label><br>
             <input type="date" id="travel-date" name="travel-date" required>
         </div>
 
         <div>
-            <label for="comments">Additional Comments:</label>
+            <label for="comments">Additional Comments:</label><br>
             <textarea id="comments" name="comments" rows="4"></textarea>
         </div>
 

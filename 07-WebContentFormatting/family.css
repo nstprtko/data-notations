@@ -26,9 +26,14 @@ h2{
 label{
     display: block;
     margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
 
 }
 input[type='submit']{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
     padding: 20px;
     background-color: rgb(127, 159, 255);
@@ -36,10 +41,13 @@ input[type='submit']{
     border-radius: 10px;
     font-size: large;
     transition: background-color 0.3s ease;
+    margin-top: 10px;
+    justify-content: center;
 }
 input[type='submit']:hover{
     background-color: rgb(62, 100, 143);
 }
+
 
 .form-group{
     margin-bottom: 20px;
@@ -47,9 +55,11 @@ input[type='submit']:hover{
 .form-group-inline{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 .form-group-inline label{
     width: 48%;
+    
 }
 @media (max-width: 600px){
     .form-group-inline label{
